@@ -33,12 +33,13 @@ export const Home = () => {
             width: "400px",
             height: "50px",
             borderRadius: "20px",
-            marginTop: "10px",
+            margin: "20px",
             backgroundColor: "#3B82F6",
             boxShadow: "0px 1px 5px",
             borderWidth: "0px",
             fontWeight: 900,
             fontSize: "20px",
+
           }}
         >
           Register Now

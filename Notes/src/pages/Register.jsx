@@ -49,12 +49,12 @@ const Register = () => {
         onChange={(e) => setUsername(e.target.value)}
         placeholder="Enter username"
         style={{
-          width: "400px",
+          width: "350px",
           height: "50px",
           borderRadius: "20px",
-
           borderWidth: "0px",
           boxShadow: "0px 1px 10px",
+          padding:"10px"
         }}
       />
       <input
@@ -63,12 +63,13 @@ const Register = () => {
         onChange={(e) => setEmail(e.target.value)}
         placeholder="Enter email"
         style={{
-          width: "400px",
+          width: "350px",
           height: "50px",
           borderRadius: "20px",
           marginTop: "10px",
           borderWidth: "0px",
           boxShadow: "0px 1px 10px",
+          padding:'10px'
         }}
       />
       <input
@@ -78,24 +79,26 @@ const Register = () => {
         placeholder="Enter password"
         security=""
         style={{
-          width: "400px",
+          width: "350px",
           height: "50px",
           borderRadius: "20px",
           marginTop: "10px",
           borderWidth: "0px",
           boxShadow: "0px 1px 10px",
+          padding:'10px'
         }}
       />
       <button
         onClick={RegisterUser}
         style={{
-          width: "400px",
+          width: "370px",
           height: "50px",
           borderRadius: "20px",
           marginTop: "10px",
           backgroundColor: "#3B82F6",
           borderWidth: "0px",
           boxShadow: "0px 1px 10px",
+         
         }}
       >
         {loading ? <h3>Loading....</h3> : <h3>Register</h3>}

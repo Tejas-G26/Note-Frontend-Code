@@ -64,12 +64,14 @@ const Login = () => {
         onChange={(e) => setEmail(e.target.value)}
         placeholder="Enter email"
         style={{
-          width: "400px",
+          width: "350px",
           height: "50px",
           borderRadius: "20px",
 
           borderWidth: "0px",
           boxShadow: "0px 1px 10px",
+          padding:'10px'
+
         }}
       />
       <input
@@ -78,18 +80,19 @@ const Login = () => {
         onChange={(e) => setPassword(e.target.value)}
         placeholder="Enter password"
         style={{
-          width: "400px",
+          width: "350px",
           height: "50px",
           borderRadius: "20px",
           marginTop: "10px",
           borderWidth: "0px",
           boxShadow: "0px 1px 10px",
+          padding:'10px'
         }}
       />
       <button
         onClick={LoginUser}
         style={{
-          width: "400px",
+          width: "370px",
           height: "50px",
           borderRadius: "20px",
           marginTop: "10px",
